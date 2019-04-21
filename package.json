@@ -4,11 +4,13 @@
   "private": true,
   "homepage": "https://craicoverflow.github.io/react-hooks-timeout-example",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "reactstrap": "^8.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
