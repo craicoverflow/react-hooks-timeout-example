@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-hooks-timeout-example/precache-manifest.99d2894be1e88aa27d7bd8e84ff58504.js"
+  "/react-hooks-timeout-example/precache-manifest.05eee9a119aabdf4655f4db22b16fe1c.js"
 );
 
 workbox.clientsClaim();
