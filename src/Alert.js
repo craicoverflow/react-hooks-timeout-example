@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
+import "./Alert.css";
 
 /**
  * Customisable alert component that remains hidden until called.
@@ -9,7 +10,13 @@ import PropTypes from "prop-types";
  * @param {func} onDurationEnd - Set visible state of component from parent.
  * @param {*} props.children - Child components.
  */
-export const Alert = ({ visible, duration, onDurationEnd, children }) => {
+export const Alert = ({
+  className,
+  visible,
+  duration,
+  onDurationEnd,
+  children
+}) => {
   const [isVisible, setVisibility] = useState(null);
 
   useEffect(() => {
@@ -28,7 +35,7 @@ export const Alert = ({ visible, duration, onDurationEnd, children }) => {
     }, duration);
   }
 
-  return children;
+  return <div className={`Alert ${className}`}>{children}</div>;
 };
 
 Alert.propTypes = {

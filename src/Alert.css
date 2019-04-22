@@ -1,0 +1,11 @@
+.Alert {
+    background-color: #03A9F4;
+    color: #fafafa;
+    display: inline-block;
+    box-shadow: 2px 1px 1px black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 1em;
+    margin: 2em;
+}
